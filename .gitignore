@@ -135,3 +135,4 @@ build/
 cache/
 typechain-types/
 
+cache/solidity-files-cache.json
