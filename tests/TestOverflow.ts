@@ -1,4 +1,4 @@
-import { OverflowTest } from "../typechain-types/OverflowTest";
+import { OverflowTest } from "../typechain-types";
 import { ethers } from "hardhat";
 import { expect } from "chai";
 
