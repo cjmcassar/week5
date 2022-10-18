@@ -1,0 +1,75 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/cjmcassar/SoftwareDev/EncodeBootcamp/week5/contracts/Gas.sol": {
+      "lastModificationDate": 1666039160097,
+      "contentHash": "121002f8458e21944228dceb7aaa4d9a",
+      "sourceName": "contracts/Gas.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "Gas"
+      ]
+    },
+    "/Users/cjmcassar/SoftwareDev/EncodeBootcamp/week5/contracts/OverflowTest.sol": {
+      "lastModificationDate": 1666040495068,
+      "contentHash": "630e28ffe9d95c0ac0de70407ec9ae52",
+      "sourceName": "contracts/OverflowTest.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "OverflowTest"
+      ]
+    }
+  }
+}
