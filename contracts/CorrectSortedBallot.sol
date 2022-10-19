@@ -32,25 +32,29 @@ contract CorrectSortedBallot {
         uint256 step = 0;
         while (sortedWords < proposalsBeingSorted.length) {
             if (step >= steps) return (false);
-            if (savedIndex >= proposals.length) {
+            if (savedIndex >= proposals.length) 
+            {
                 sortedWords++;
                 savedIndex = 1;
                 swaps = 0;
             }
-            else{
-            Proposal memory prevObj = proposalsBeingSorted[savedIndex - 1];
-             if (uint256(prevObj.name) > uint256(proposals[savedIndex].name)) {
-                proposalsBeingSorted[savedIndex - 1] = proposalsBeingSorted[savedIndex];
-                proposalsBeingSorted[savedIndex] = prevObj;
-                swaps++;
-            }
-            savedIndex++;
+            else
+            {
+                Proposal memory prevObj = proposalsBeingSorted[savedIndex - 1];
+                if (uint256(prevObj.name) > uint256(proposals[savedIndex].name)) 
+                {
+                    proposalsBeingSorted[savedIndex - 1] = proposalsBeingSorted[savedIndex];
+                    proposalsBeingSorted[savedIndex] = prevObj;
+                    swaps++;
+                }
+                savedIndex++;
             }
             step++;
+        }
         proposals = proposalsBeingSorted;
         return (true);
-        }
     }
+
     function sorted() public view returns (bool isSorted) {
         isSorted = sortedWords == proposals.length;
     }
