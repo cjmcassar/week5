@@ -135,9 +135,11 @@ build/
 cache/
 typechain-types/
 
+
+artifacts/contracts/Gas.sol/Gas.dbg.json
+artifacts/contracts/Gas.sol/Gas.json
 cache/solidity-files-cache.json
 typechain-types/hardhat.d.ts
-typechain-types/factories/index.ts
 typechain-types/index.ts
-cache/solidity-files-cache.json
-cache/solidity-files-cache.json
+typechain-types/factories/Gas__factory.ts
+typechain-types/factories/index.ts
