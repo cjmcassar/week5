@@ -14,6 +14,7 @@ const config: HardhatUserConfig = {
 	},
 	networks: {
 		hardhat: {
+			hardfork: "merge",
 			allowUnlimitedContractSize: true,
 		},
 	},
