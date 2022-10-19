@@ -17,6 +17,7 @@ contract CorrectSortedBallot {
         for (uint256 i = 0; i < proposalNames.length; i++) {
             proposals.push(Proposal({name: proposalNames[i], voteCount: 0}));
         }
+
         savedIndex = 1;
         proposalsBeingSorted = proposals;
     }
@@ -32,18 +33,18 @@ contract CorrectSortedBallot {
         uint256 step = 0;
         while (sortedWords < proposalsBeingSorted.length) {
             if (step >= steps) return (false);
-            if (savedIndex >= proposals.length) 
-            {
+            if (savedIndex >= proposals.length) {
                 sortedWords++;
                 savedIndex = 1;
                 swaps = 0;
-            }
-            else
-            {
+            } else {
                 Proposal memory prevObj = proposalsBeingSorted[savedIndex - 1];
-                if (uint256(prevObj.name) > uint256(proposals[savedIndex].name)) 
-                {
-                    proposalsBeingSorted[savedIndex - 1] = proposalsBeingSorted[savedIndex];
+                if (
+                    uint256(prevObj.name) > uint256(proposals[savedIndex].name)
+                ) {
+                    proposalsBeingSorted[savedIndex - 1] = proposalsBeingSorted[
+                        savedIndex
+                    ];
                     proposalsBeingSorted[savedIndex] = prevObj;
                     swaps++;
                 }
