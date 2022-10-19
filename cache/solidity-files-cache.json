@@ -2,8 +2,8 @@
   "_format": "hh-sol-cache-2",
   "files": {
     "/Users/cjmcassar/SoftwareDev/EncodeBootcamp/week5/contracts/Gas.sol": {
-      "lastModificationDate": 1666039160097,
-      "contentHash": "121002f8458e21944228dceb7aaa4d9a",
+      "lastModificationDate": 1666209713428,
+      "contentHash": "a3208909a77e8cb41a8879421204078a",
       "sourceName": "contracts/Gas.sol",
       "solcConfig": {
         "version": "0.8.17",
@@ -69,6 +69,255 @@
       ],
       "artifacts": [
         "OverflowTest"
+      ]
+    },
+    "/Users/cjmcassar/SoftwareDev/EncodeBootcamp/week5/contracts/SortedBallot.sol": {
+      "lastModificationDate": 1666209702976,
+      "contentHash": "bcd8fd2dcaab99872c164aa76ff462fc",
+      "sourceName": "contracts/SortedBallot.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "SortedBallot"
+      ]
+    },
+    "/Users/cjmcassar/SoftwareDev/EncodeBootcamp/week5/contracts/CorrectSortedBallot.sol": {
+      "lastModificationDate": 1666209689469,
+      "contentHash": "6cc63b1cac06c26bfd2799b5d021dd5e",
+      "sourceName": "contracts/CorrectSortedBallot.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "CorrectSortedBallot"
+      ]
+    },
+    "/Users/cjmcassar/SoftwareDev/EncodeBootcamp/week5/contracts/NotQuiteRandom.sol": {
+      "lastModificationDate": 1666211554884,
+      "contentHash": "90bf2f605b9aa81733584f6acbe3a65a",
+      "sourceName": "contracts/NotQuiteRandom.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "NotQuiteRandom"
+      ]
+    },
+    "/Users/cjmcassar/SoftwareDev/EncodeBootcamp/week5/contracts/PsuedoRandom.sol": {
+      "lastModificationDate": 1666213474323,
+      "contentHash": "177a64ede8d1ab2f4f6d17bff83d397d",
+      "sourceName": "contracts/PsuedoRandom.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/utils/cryptography/ECDSA.sol"
+      ],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "PseudoRandom"
+      ]
+    },
+    "/Users/cjmcassar/SoftwareDev/EncodeBootcamp/week5/node_modules/@openzeppelin/contracts/utils/cryptography/ECDSA.sol": {
+      "lastModificationDate": 1666037125911,
+      "contentHash": "e240957102529c3ccf73bcf4527bcddc",
+      "sourceName": "@openzeppelin/contracts/utils/cryptography/ECDSA.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../Strings.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ECDSA"
+      ]
+    },
+    "/Users/cjmcassar/SoftwareDev/EncodeBootcamp/week5/node_modules/@openzeppelin/contracts/utils/Strings.sol": {
+      "lastModificationDate": 1666037125932,
+      "contentHash": "cf46906c4035f51639a22265066a9e78",
+      "sourceName": "@openzeppelin/contracts/utils/Strings.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Strings"
+      ]
+    },
+    "/Users/cjmcassar/SoftwareDev/EncodeBootcamp/week5/contracts/Random.sol": {
+      "lastModificationDate": 1666214175540,
+      "contentHash": "453d37f8217570c7b022acbc242d2ba0",
+      "sourceName": "contracts/Random.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "Random"
       ]
     }
   }
